@@ -169,9 +169,3 @@ submit_df["SalePrice"] = test_X["SalePrice"]
 submit_df = submit_df.fillna(0.)
 submit_df.to_csv("/Users/wonhyung64/Downloads/submit.csv", index=False)
 os.getcwd()
-
-
-
-
-
-# %%
